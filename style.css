@@ -18,7 +18,6 @@ header > div {
     align-items: center; 
 }
 
-
 .imagem-header{
 width: 100%;
 height: auto;
@@ -73,6 +72,8 @@ button {
     text-align: center; 
     padding: 50px; 
 }
+
+
 
 .SobreNos {
     display: flex;
@@ -152,4 +153,42 @@ button {
     color: rgb(170, 0, 0);
     font-family: "Oswald", "sans-serif";
     font-size: 2rem;
+}
+
+.imagem-header-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .imagem-header {
+        display: none;
+    }
+
+    .imagem-header-desktop{
+        display: block;
+        width: 100%;
+        height: 870px;
+        margin-top: -4rem;
+    }
+
+    .SobreNosContent {
+        display: flex;               /* Ativa o flexbox para alinhar os itens lado a lado */
+        justify-content: space-between; /* Espaçamento entre o texto e a imagem */
+        align-items: center;         /* Alinha verticalmente os itens no centro */
+        gap: 20px;                   /* Adiciona espaçamento entre o texto e a imagem */
+        padding: 20px;
+        margin-top: -300px;
+        }
+
+    
+    .SobreNosContent img {
+        width: 80%; /* Ambos ocupam 100% da largura em dispositivos pequenos */
+    }
+
+    .SobreNos p {
+        padding-left: 3rem;
+        padding-top: 15rem;
+        width: 50rem;
+    }
 }
