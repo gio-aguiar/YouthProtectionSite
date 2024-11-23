@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "Lato", "sans-serif"; /* Atualizado para Lato com maiúsculas */
+    font-family: "Lato", "sans-serif";
 }
 
 #nav {
@@ -14,8 +14,8 @@
 
 header > div {
     display: flex;
-    justify-content: center; /* Alinha horizontalmente ao centro */
-    align-items: center; /* Alinha verticalmente ao centro (se necessário) */
+    justify-content: center; 
+    align-items: center; 
 }
 
 
@@ -25,14 +25,22 @@ height: auto;
 }
 
 .texto{
-    position: absolute; /* Coloca o texto sobre a imagem */
-    color: white; /* Cor do texto (mude conforme necessário) */
+    position: absolute; 
+    color: white; 
     text-align: center;
     font-family: "Oswald", "bold";
     color: #956239;
     font-size: 100%;
-    padding: 3rem; /* Padding para as laterais */
-    line-height: 1.5; /* Aumenta o espaçamento entre as linhas, para tornar o texto mais legível */
+    padding: 3rem; 
+    line-height: 1.5; 
+}
+
+.titulo-header, .paragrafo-header{ 
+    font-family: "Oswald", "bold";
+    color: #956239;
+}
+.paragrafo-header{
+    font-size: 1.2rem;
 }
 
 
@@ -46,32 +54,38 @@ height: auto;
     color: white;
     border-radius: 40px;
     margin-top: 1rem;
-    font-size: 10px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+button {
+    border: none; 
+    box-shadow: none; 
 }
 
 .Colabore {
     background-color: #ffe0b2;
     color: #956239;
-    flex-direction: column; /* Organiza os elementos em uma coluna */
-    justify-content: center; /* Alinha os elementos verticalmente no centro */
-    align-items: center; /* Alinha os elementos horizontalmente no centro */
-    text-align: center; /* Alinha o texto no centro */
-    padding: 50px; /* Adiciona um pequeno espaçamento ao redor */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 50px; 
 }
 
 .SobreNos {
     display: flex;
-    flex-direction: column; /* Organiza os elementos em uma coluna */
-    justify-content: center; /* Alinha os elementos verticalmente no centro */
-    align-items: center; /* Alinha os elementos horizontalmente no centro */
-    text-align: center; /* Alinha o texto no centro */
-    padding: 50px; /* Adiciona um pequeno espaçamento ao redor */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding: 50px; 
 }
 
 .SobreNos img {
-    max-width: 100%; /* Faz a imagem se ajustar à largura da tela, mas não ultrapassar o tamanho do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .SobreNos p,
@@ -83,7 +97,7 @@ height: auto;
     color: #6e4626;
     font-size: 15px;
     font-family: "Poppins", "sans-serif";
-    margin: 10px 0; /* Adiciona espaçamento entre os elementos */
+    margin: -5px 0; 
 }
 
 .SobreNos h2{
@@ -109,9 +123,33 @@ height: auto;
     background-color: #FF9900;
     color: white;
     display: flex;
-    flex-direction: column; /* Organiza os elementos em uma coluna */
-    justify-content: center; /* Alinha os elementos verticalmente no centro */
-    align-items: center; /* Alinha os elementos horizontalmente no centro */
-    text-align: center; /* Alinha o texto no centro */
-    padding: 50px; /* Adiciona um pequeno espaçamento ao redor */
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    padding: 50px; 
+}
+
+.Colabore{
+    background-color: #e4d368;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+    color:#fff;
+    font-size: 1.2rem;
+}
+
+
+.Colabore input[type="text"] {
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 30px;
+}
+
+.destaque {
+    color: rgb(170, 0, 0);
+    font-family: "Oswald", "sans-serif";
+    font-size: 2rem;
 }
