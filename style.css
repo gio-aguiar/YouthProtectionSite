@@ -40,12 +40,7 @@ height: auto;
 }
 .paragrafo-header{
     font-size: 1.2rem;
-}
-
-
-.paragrafo-header{
     color: #372516 ;
-    font-size: .7,1rem;
 }
 
 .button-header, .button-sobrenos, .button-formulario {
@@ -105,6 +100,7 @@ button {
     color: #956239;
     font-family: "Poppins", "sans-serif";
     font-size: 2.2rem;
+    
 }
 
 .Colabore h2 {
@@ -183,12 +179,58 @@ button {
 
     
     .SobreNosContent img {
-        width: 80%; /* Ambos ocupam 100% da largura em dispositivos pequenos */
+        margin-top: -10rem;
+        width: 50%; /* Ambos ocupam 100% da largura em dispositivos pequenos */
     }
 
     .SobreNos p {
+        text-align: left;
         padding-left: 3rem;
         padding-top: 15rem;
         width: 50rem;
     }
+
+    
+.titulo-header{ 
+    text-align: left;
+    font-size: 2.3rem;
+    padding-right: 35rem;
+}
+
+.paragrafo-header{
+    text-align: left;
+    font-size: 1.4rem;
+    font-family: "Oswald", "sans-serif";
+    font-weight: 500;
+}
+
+.destaque{
+    font-size: 4rem;
+    color: #FF9900;
+    line-height: 4.6rem;
+}
+
+.destaqueDesktop{
+    color: #FF9900;
+    font-family: "Oswald", "sans-serif";
+    font-weight: 100;
+}
+
+.texto {
+    margin-left: 12rem;
+}
+    
+.FacaParteContent{
+    display: flex;               /* Ativa o flexbox para alinhar os itens lado a lado */
+    justify-content: space-between; /* Espaçamento entre o texto e a imagem */
+    align-items: center;         /* Alinha verticalmente os itens no centro */
+    gap: 20px;                   /* Adiciona espaçamento entre o texto e a imagem */
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.FacaParteContent img {
+    width: 50%; /* Ambos ocupam 100% da largura em dispositivos pequenos */
+}
+
 }
