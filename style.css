@@ -221,16 +221,79 @@ button {
 }
     
 .FacaParteContent{
-    display: flex;               /* Ativa o flexbox para alinhar os itens lado a lado */
-    justify-content: space-between; /* Espaçamento entre o texto e a imagem */
-    align-items: center;         /* Alinha verticalmente os itens no centro */
-    gap: 20px;                   /* Adiciona espaçamento entre o texto e a imagem */
-    padding: 20px;
-    margin-top: -30px;
+    display: flex;               
+    justify-content: space-between; 
+    align-items: center;        
+    gap: 90px; 
+    padding-left: 150px;  
+    padding-right: 150px;                
 }
 
 .FacaParteContent img {
-    width: 50%; /* Ambos ocupam 100% da largura em dispositivos pequenos */
+    width: 45%; 
+    height: auto;
 }
+
+.FacaParteContent p {
+    width: 60%;    
+    margin-top: 0; 
+    text-align: left;
+}
+.FacaParte {
+    justify-content: flex-end; 
+    align-items: flex-start;   
+    text-align: left;          
+    height: 100vh;            
+}
+
+.FacaParte h2, .FacaParte h3 {
+    padding-left: 10rem;
+}
+
+.Colabore {
+    color: #956239;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    text-align: left; 
+    padding: 50px;
+    padding-left: 10rem;
+    width: 100%; 
+    height: auto;
+}
+
+.Colabore h3 {
+    color: #6e4626;
+    font-size: 1.5rem;
+}
+
+.Colabore h2 {
+    color: #956239;
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4rem; 
+}
+
+.Colabore input[type="text"] {
+    margin-bottom: 1rem;
+    width: 100%; 
+    padding: 4px;
+}
+
+.Colabore button {
+    background-color: #956239;
+    color: white;
+    border-radius: 40px;
+    padding: 15px;
+    font-size: 20px;
+    width: auto; 
+    margin-top: 1rem;
+}
+
+
+.Colabore img {
+    max-width: 100%; 
+    height: auto;
+    margin-left: 0; 
 
 }
