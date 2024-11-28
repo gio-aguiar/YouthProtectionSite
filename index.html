@@ -35,8 +35,9 @@
     <main>
 
         <section class="SobreNos">
+            <div class="titulo-sobrenos">
         <h3>conheça mais</h3>
-        <h2>Sobre nós</h2>
+        <h2>Sobre nós</h2></div>
         <div class="SobreNosContent">
         <img src="img/foto1.png" alt="">
         <p>Bem-vindo ao Youth Protection, um aplicativo de diário criado para apoiar a saúde mental 
@@ -71,17 +72,33 @@
             </div>
         </section>
 
-        <section class="Colabore">
+        <div class="Colabore">
             <h3>colabore:</h3>
             <h2>Seja Voluntário!</h2>
-            <label>Nome: <br><input type="text" name="nome" /></label><br/>
-            <label>Telefone: <br><input type="text" name="idade" /></label><br/>
-            <label>Email: <br><input type="text" name="nome" /></label><br/>
-            <label>Profissão: <br><input type="text" name="idade" /></label><br/>
-            <label>Porque quer ser voluntário?: <br><input type="text" name="idade" /></label><br/>
-
-            <button class="button-formulario">Enviar!</button>
-        </section>
+            <form>
+                <label class="nome">
+                    Nome:
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                </label>
+                <label class="telefone">
+                    Telefone:
+                    <input type="text" name="telefone" placeholder="Digite seu telefone">
+                </label>
+                <label class="nome">
+                    Email:
+                    <input type="text" name="nome" placeholder="Digite seu email">
+                </label>
+                <label class="telefone">
+                    Profissão:
+                    <input type="text" name="telefone" placeholder="Digite sua profissão">
+                </label>
+                <label class="voluntario">
+                    Porque quer ser voluntário?
+                    <input type="text" name="voluntario" placeholder="Sua motivação">
+                </label>
+                <br><button type="submit">Enviar</button>
+            </form>
+        </div>
 
         </main>
 

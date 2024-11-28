@@ -12,18 +12,24 @@
     display: none;
 }
 
+.logotipo {
+    width: 10rem;  
+    height: auto;  
+    margin-top: 1rem;
+}
+
 header > div {
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
 
-.imagem-header{
-width: 100%;
-height: auto;
+.imagem-header {
+    width: 100%;
+    height: auto;
 }
 
-.texto{
+.texto {
     position: absolute; 
     color: white; 
     text-align: center;
@@ -34,13 +40,14 @@ height: auto;
     line-height: 1.5; 
 }
 
-.titulo-header, .paragrafo-header{ 
+.titulo-header, .paragrafo-header { 
     font-family: "Oswald", "bold";
     color: #956239;
 }
-.paragrafo-header{
+
+.paragrafo-header {
     font-size: 1.2rem;
-    color: #372516 ;
+    color: #372516;
 }
 
 .button-header, .button-sobrenos, .button-formulario {
@@ -50,7 +57,6 @@ height: auto;
     margin-top: 1rem;
     font-size: 20px;
     padding: 15px;
-
 }
 
 button {
@@ -67,8 +73,6 @@ button {
     text-align: center; 
     padding: 50px; 
 }
-
-
 
 .SobreNos {
     display: flex;
@@ -93,14 +97,13 @@ button {
     color: #6e4626;
     font-size: 15px;
     font-family: "Poppins", "sans-serif";
-    margin: -5px 0; 
+    margin: -5px; 
 }
 
-.SobreNos h2{
+.SobreNos h2 {
     color: #956239;
     font-family: "Poppins", "sans-serif";
     font-size: 2.2rem;
-    
 }
 
 .Colabore h2 {
@@ -127,7 +130,7 @@ button {
     padding: 50px; 
 }
 
-.Colabore{
+.Colabore {
     background-color: #e4d368;
     display: flex;
     flex-direction: column;
@@ -138,146 +141,12 @@ button {
     font-size: 1.2rem;
 }
 
-
 .Colabore input[type="text"] {
+    width: 100%; 
+    padding: 12px;
+    font-size: 16px;
     border-radius: 15px;
     border: 1px solid #ccc;
-    font-size: 30px;
-}
-
-.destaque {
-    color: rgb(170, 0, 0);
-    font-family: "Oswald", "sans-serif";
-    font-size: 2rem;
-}
-
-.imagem-header-desktop {
-    display: none;
-}
-
-@media screen and (min-width: 1024px) {
-
-    .imagem-header {
-        display: none;
-    }
-
-    .imagem-header-desktop{
-        display: block;
-        width: 100%;
-        height: 870px;
-        margin-top: -4rem;
-    }
-
-    .SobreNosContent {
-        display: flex;               /* Ativa o flexbox para alinhar os itens lado a lado */
-        justify-content: space-between; /* Espaçamento entre o texto e a imagem */
-        align-items: center;         /* Alinha verticalmente os itens no centro */
-        gap: 20px;                   /* Adiciona espaçamento entre o texto e a imagem */
-        padding: 20px;
-        margin-top: -300px;
-        }
-
-    
-    .SobreNosContent img {
-        margin-top: -10rem;
-        width: 50%; /* Ambos ocupam 100% da largura em dispositivos pequenos */
-    }
-
-    .SobreNos p {
-        text-align: left;
-        padding-left: 3rem;
-        padding-top: 15rem;
-        width: 50rem;
-    }
-
-    
-.titulo-header{ 
-    text-align: left;
-    font-size: 2.3rem;
-    padding-right: 35rem;
-}
-
-.paragrafo-header{
-    text-align: left;
-    font-size: 1.4rem;
-    font-family: "Oswald", "sans-serif";
-    font-weight: 500;
-}
-
-.destaque{
-    font-size: 4rem;
-    color: #FF9900;
-    line-height: 4.6rem;
-}
-
-.destaqueDesktop{
-    color: #FF9900;
-    font-family: "Oswald", "sans-serif";
-    font-weight: 100;
-}
-
-.texto {
-    margin-left: 12rem;
-}
-    
-.FacaParteContent{
-    display: flex;               
-    justify-content: space-between; 
-    align-items: center;        
-    gap: 90px; 
-    padding-left: 150px;  
-    padding-right: 150px;                
-}
-
-.FacaParteContent img {
-    width: 45%; 
-    height: auto;
-}
-
-.FacaParteContent p {
-    width: 60%;    
-    margin-top: 0; 
-    text-align: left;
-}
-.FacaParte {
-    justify-content: flex-end; 
-    align-items: flex-start;   
-    text-align: left;          
-    height: 100vh;            
-}
-
-.FacaParte h2, .FacaParte h3 {
-    padding-left: 10rem;
-}
-
-.Colabore {
-    color: #956239;
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    text-align: left; 
-    padding: 50px;
-    padding-left: 10rem;
-    width: 100%; 
-    height: auto;
-}
-
-.Colabore h3 {
-    color: #6e4626;
-    font-size: 1.5rem;
-}
-
-.Colabore h2 {
-    color: #956239;
-    font-size: 2.2rem;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 4rem; 
-}
-
-.Colabore input[type="text"] {
-    margin-bottom: 1rem;
-    width: 100%; 
-    padding: 4px;
 }
 
 .Colabore button {
@@ -290,10 +159,156 @@ button {
     margin-top: 1rem;
 }
 
+.destaque {
+    color: rgb(170, 0, 0);
+    font-family: "Oswald", "sans-serif";
+    font-size: 2.7rem;
+}
 
-.Colabore img {
-    max-width: 100%; 
-    height: auto;
-    margin-left: 0; 
+.imagem-header-desktop {
+    display: none;
+}
 
+@media screen and (min-width: 1024px) {
+
+    .imagem-header {
+        display: none;
+    }
+
+    .imagem-header-desktop {
+        display: block;
+        width: 100%;
+        height: 870px;
+        margin-top: -4rem;
+    }
+
+    .SobreNosContent {
+        display: flex;               
+        align-items: center;
+    }
+
+    .SobreNosContent img {
+        margin-top: -20rem;
+        width: 50%; 
+    }
+
+    .SobreNos p {
+        text-align: left;
+        padding-left: 3rem;
+        width: 50rem;
+    }
+
+    .titulo-sobrenos {
+        margin-top: -5rem;
+        text-align: left;
+        padding-left: 2rem;
+    }
+
+    .titulo-header { 
+        text-align: left;
+        font-size: 2.3rem;
+        padding-right: 35rem;
+    }
+
+    .paragrafo-header {
+        text-align: left;
+        font-size: 1.4rem;
+        font-family: "Oswald", "sans-serif";
+        font-weight: 500;
+    }
+
+    .destaque {
+        font-size: 4rem;
+        color: #FF9900;
+        line-height: 4.6rem;
+    }
+
+    .destaqueDesktop {
+        color: #FF9900;
+        font-family: "Oswald", "sans-serif";
+        font-weight: 100;
+    }
+
+    .texto {
+        margin-left: 12rem;
+    }
+
+    .FacaParteContent {
+        display: flex;               
+        justify-content: space-between; 
+        align-items: center;        
+        gap: 90px; 
+        padding-left: 150px;  
+        padding-right: 150px;                
+    }
+
+    .FacaParteContent img {
+        width: 30%; 
+        height: auto;
+    }
+
+    .FacaParteContent p {
+        width: 60%;    
+        margin-top: 0; 
+        text-align: left;
+    }
+
+    .FacaParte {
+        justify-content: flex-end; 
+        align-items: flex-start;   
+        text-align: left;          
+        height: 100vh;      
+        height: auto; 
+    }
+
+    .FacaParte h2, .FacaParte h3 {
+        padding-left: 10rem;
+        position: relative; 
+    }
+
+    .FacaParte h2, .FacaParte h3 {
+        padding-left: 10rem;
+    }
+
+    .Colabore form {
+        display: flex;
+        gap: 20px; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+        width: 100%;
+    }
+
+    .Colabore label {
+        display: flex;
+        flex-direction: column; 
+        gap: 8px; 
+        width: 48%; 
+    }
+
+    .Colabore .nome, 
+    .Colabore .telefone {
+        width: 48%; 
+    }
+
+    .Colabore .voluntario {
+        width: 100%; 
+    }
+
+    .Colabore input[type="text"] {
+        width: 100%; 
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+    }
+
+    .Colabore button {
+        background-color: #956239;
+        color: white;
+        border-radius: 40px;
+        padding: 15px;
+        font-size: 20px;
+        width: auto; 
+        margin-top: 1rem;
+    }
 }
